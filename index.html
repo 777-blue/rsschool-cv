@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2 id="rsschool-cv">rsschool-cv</h2>
+<h1 id="julia-volkova">Julia Volkova</h1>
+<hr>
+<h3 id="contact-details-">Contact Details:</h3>
+<hr>
+<ul>
+<li>Location: Paphos, Cyprus</li>
+<li>Tel.:  +357 999 16 357</li>
+<li>GitHub: <a href="https://github.com/777-blue">777-blue</a></li>
+</ul>
+<hr>
+<h3 id="about-me-">About Me:</h3>
+<hr>
+<p>Adventurous, inquisitive, eager to learn and to bloom into a full-fledged Web Dev. </p>
+<p><img src="https://emojis.wiki/emoji-pics/apple/butterfly-apple.png" alt="butterfly"></p>
+<hr>
+<h3 id="skills-">Skills:</h3>
+<hr>
+<ul>
+<li>HTML5</li>
+<li>CSS3/ SCSS</li>
+<li>JavaScript</li>
+<li>Bootstrap</li>
+<li>Git/ GitHub</li>
+<li>Adobe Photoshop, Adobe Illustrator, Figma, Inkscape, GIMP</li>
+</ul>
+<hr>
+<h3 id="code-example-">Code Example:</h3>
+<hr>
+<p><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-range-of-numbers">freeCodeCamp challenge</a></p>
+<blockquote>
+<p>Use Recursion to Create a Range of Numbers</p>
+</blockquote>
+<pre><code>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">rangeOfNumbers</span><span class="hljs-params">(startNum, endNum)</span> </span>{
+ <span class="hljs-keyword">if</span> (startNum &gt;= endNum) {
+  <span class="hljs-keyword">return</span> [startNum];
+ }
+ <span class="hljs-keyword">else</span> {
+   <span class="hljs-keyword">const</span> numArr = rangeOfNumbers(startNum, endNum <span class="hljs-number">-1</span>);
+   numArr.push(endNum);
+   <span class="hljs-keyword">return</span> numArr;
+ }
+}
+</code></pre><hr>
+<h3 id="education">Education</h3>
+<hr>
+<ul>
+<li>Bachelor of Arts in Business Management (BBM)</li>
+<li>Courses: <ul>
+<li><a href="https://zerotomastery.io/">ZtM</a></li>
+<li><a href="https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0">Harvard CS50</a></li>
+<li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+<li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+<li><a href="https://javascript.info/">The JavaScript language. Ilya Kantor</a></li>
+<li><strong><a href="https://rs.school/">RS School</a></strong></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="language-skills">Language Skills</h3>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th style="text-align:center">Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Russian:</td>
+<td style="text-align:center">Native</td>
+</tr>
+<tr>
+<td>English:</td>
+<td style="text-align:center">Advanced</td>
+</tr>
+<tr>
+<td>Greek:</td>
+<td style="text-align:center">Beginner</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<hr>
+</body>
+</html>
