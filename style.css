@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  color: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+/* ^ zeroing CSS */
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #00284d;
+}
+
+.wrapper {
+  margin: 0px auto;
+  max-width: 1170px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #004f99;
+  margin-bottom: 15px;
+}
+
+section a {
+  text-decoration: none;
+  color: #1a90ff;
+  transition: color 0.5s;
+}
+
+section a:hover {
+  color: #80c1ff;
+}
+
+body {
+  min-height: 100%;
+  background: rgb(246, 233, 243);
+  background: -moz-linear-gradient(180deg, rgba(246, 233, 243) 0%, rgba(246, 233, 243) 20%, rgba(221, 190, 220, 1) 70%, rgba(205, 161, 205, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(246, 233, 243) 0%, rgba(246, 233, 243) 20%, rgba(221, 190, 220, 1) 70%, rgba(205, 161, 205, 1) 100%);
+  background: linear-gradient(180deg, rgba(246, 233, 243) 0%, rgba(246, 233, 243) 20%, rgba(221, 190, 220, 1) 70%, rgba(205, 161, 205, 1) 100%);
+}
+
+#logo {
+  max-width: 200px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+.nav {
+  background: rgb(134, 70, 134);
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  }
+
+  nav {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-link {
+  transition: .3s;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+h1#name {
+  color: #0054a4;
+  font-size: 60px;
+}
+h2#rsschool-cv {
+  color:   #9494b8;
+  font-size: 30px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+footer {
+  background: rgb(134, 70, 134);
+  background: -moz-linear-gradient(90deg, rgba(134, 70, 134, 1) 0%, rgba(205, 161, 205, 1) 80%, rgba(205, 161, 205, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(134, 70, 134, 1) 0%, rgba(205, 161, 205, 1) 80%, rgba(205, 161, 205, 1) 100%);
+  background: linear-gradient(90deg, rgba(134, 70, 134, 1) 0%, rgba(205, 161, 205, 1) 80%, rgba(205, 161, 205, 0.1) 100%);
+}
+
+.block__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+footer {
+  height: 80px;
+}
+
+.section-item {
+  
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid rgb(134, 70, 134);
+  border-radius: 10px;
+  overflow-wrap: break-word;
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
